@@ -1,0 +1,17 @@
+Untuk Login sebagai Admin
+u:p = orvamediaadmin
+
+Untuk login sebagai importir/exportir
+u:p= orvamediaimportir
+
+atau bisa mendaftarkan :)
+
+
+
+Buka file Dokumen.php pada controllers->user
+
+Lihat Function kirimEmailToAdmin();
+
+Lakukan pengisian Email baikt itu email pengirim dan email tujuan scroll sampai kebawah, terlebih dahulu pastikan akun GMAIL sudah di konfigurasi seperti gambar yang telah terlampir, yaitu Setting Gmail 1, Setting Gmail 2, Setting Gmail 3
+
+

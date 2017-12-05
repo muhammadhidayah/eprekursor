@@ -95,8 +95,8 @@ class Dokumen extends CI_Controller {
 		    'protocol' => 'smtp',  
 		    'smtp_host' => 'ssl://smtp.googlemail.com',  
 		    'smtp_port' => 465,  
-		    'smtp_user' => 'muhammad30hidayah696@gmail.com',   
-		    'smtp_pass' => 'Joko1234',   
+		    'smtp_user' => 'masukkanemailnyadisini',   
+		    'smtp_pass' => 'masukkanpassworddisini',   
 		    'mailtype' => 'html',   
 		    'charset' => 'iso-8859-1'  
 	   	);
@@ -120,8 +120,8 @@ class Dokumen extends CI_Controller {
 
 		$this->load->library('email', $config);  
 		$this->email->set_newline("\r\n");  
-		$this->email->from('muhammad30hidayah696@gmail.com', 'Admin Re:Code');   
-		$this->email->to('kulup.belitong1996@gmail.com');   
+		$this->email->from('masukkanemailandadisini', 'Admin Re:Code');   
+		$this->email->to('masukkanemailtujuan');   
 		$this->email->subject('Percobaan email');   
 		$this->email->message($pesan);
 		$this->email->attach($berkas);
